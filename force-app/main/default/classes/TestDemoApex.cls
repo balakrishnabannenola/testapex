@@ -1,7 +1,7 @@
-public class testapex {
+public class TestDemoApex {
     public Account acc{set;get;}
     public contact con{set;get;}
-    public testapex(){
+    public TestDemoApex(){
         acc=new Account();
     }
     public PageReference create(){
@@ -23,5 +23,4 @@ public class testapex {
             Return null;
         }
     }
-
 }
